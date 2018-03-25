@@ -398,6 +398,17 @@ p {
   .video{
     width: 75%;
   }
+  .video iframe{
+    margin-left: 0;
+  }
+
+  .video h1{
+    margin-left: 0;
+  }
+
+  .video p{
+    margin-left: 0;
+  }
 }
 
 @media only screen and (max-width: 735px){
@@ -435,7 +446,7 @@ p {
     display: none;
   }
   .links a{
-    font-size: 1rem;
+    font-size: 0.75rem;
   }
 
 }
