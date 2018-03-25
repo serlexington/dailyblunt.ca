@@ -409,7 +409,11 @@ p {
     font-size: 1rem;
   }
   .links a{
-    font-size: 0.75rem;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+  }
+  .logo p{
+    display: none;
   }
 }
 @media only screen  and (max-width: 722px){
@@ -433,6 +437,7 @@ p {
   .links a{
     font-size: 1rem;
   }
+
 }
 
 @media only screen and (max-width: 584px){
@@ -449,5 +454,22 @@ p {
   }
   footer{
     height: 4rem;
+  }
+}
+@media only screen and (max-width: 393px){
+  .footer-links a{
+    font-size: 0.75rem;
+  }
+  .links a{
+    font-size: 0.99rem;
+  }
+}
+@media only screen and (max-width: 363px){
+
+  .footer-links a{
+    font-size: 0.5rem;
+  }
+  .links a{
+    padding: 0.5rem;
   }
 }
