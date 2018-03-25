@@ -313,9 +313,6 @@ p {
     color: #d1d1d1;
 }
 
-footer a {
-    padding: 2rem;
-}
 
 .footer-links a {
     padding: 1rem 2rem;
@@ -333,4 +330,101 @@ footer a {
 /* Temporary Styles */
 .mobile-nav {
     display: none;
+}
+
+@media only screen and (max-width: 1002px){
+
+  .small-container{
+    display: none;
+  }
+
+  .flex-container{
+    justify-content: center;
+  }
+
+
+}
+
+@media only screen and (max-width: 889px){
+
+  .links a{
+    font-size: 1rem;
+  }
+
+  .video iframe{
+    margin-left: 0;
+  }
+
+  .video h1{
+    margin-left: 0;
+  }
+
+  .video p{
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 849px){
+
+  .logo p{
+    font-size: 1.5rem;
+  }
+
+  .video iframe{
+    margin-left: 0;
+  }
+
+  .video h1{
+    margin-left: 0;
+  }
+
+  .video p{
+    margin-left: 0;
+  }
+
+}
+
+@media only screen and (max-width: 770px){
+
+  .footer-links a{
+    padding: 0.5rem 1rem;
+  }
+}
+@media only screen and (max-width: 738px){
+
+  .footer-links a{
+    padding: 0.25rem 0.5rem;
+  }
+  .video{
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 735px){
+
+  nav{
+    height: 5rem;
+  }
+  .logo p{
+    font-size: 1rem;
+  }
+  .links a{
+    font-size: 0.75rem;
+  }
+}
+@media only screen and (min-width: 585px) and (max-width: 722px){
+
+  .footer-copy{
+    font-size: 0.6rem;
+    margin: 0;
+  }
+  .footer p{
+    font-size: 0.5rem;
+  }
+  iframe{
+    width: 100%;
+  }
+  footer{
+    height: 6rem;
+  }
 }
