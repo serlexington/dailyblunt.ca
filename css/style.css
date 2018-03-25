@@ -412,7 +412,7 @@ p {
     font-size: 0.75rem;
   }
 }
-@media only screen and (min-width: 1px) and (max-width: 722px){
+@media only screen  and (max-width: 722px){
 
   .footer-copy{
     font-size: 0.6rem;
@@ -426,5 +426,22 @@ p {
   }
   footer{
     height: 6rem;
+  }
+}
+
+@media only screen and (max-width: 584px){
+
+  .paypal{
+    display:  none;
+  }
+
+  .logo{
+    display: none;
+  }
+  nav{
+    height: 4rem;
+  }
+  footer{
+    height: 4rem;
   }
 }
