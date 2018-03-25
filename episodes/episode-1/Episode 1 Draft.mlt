@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mlt LC_NUMERIC="en_CA" version="6.5.0" title="Shotcut version 17.12.03" producer="main bin">
+  <profile description="automatic" width="640" height="480" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="640" display_aspect_den="480" frame_rate_num="15" frame_rate_den="1" colorspace="601"/>
+  <playlist id="main bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:57:21.400">
+    <property name="length">00:57:21.467</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:\Program Files\Shotcut/black</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:57:21.400"/>
+  </playlist>
+  <producer id="producer0" title="Anonymous Submission" in="00:00:00.000" out="00:00:39.867">
+    <property name="length">00:00:39.933</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/serle/Documents/YouCam/Daily Blunt 1 Intro.wmv</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">e04fda8b4354575b00388ad961690944</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Daily Blunt 1 Intro.wmv</property>
+    <property name="shotcut:detail">C:/Users/serle/Documents/YouCam/Daily Blunt 1 Intro.wmv</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer1" title="Anonymous Submission" in="00:00:00.000" out="00:00:39.867">
+    <property name="length">00:00:39.933</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/serle/Documents/YouCam/Daily Blunt 1 Intro.wmv</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">e04fda8b4354575b00388ad961690944</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Daily Blunt 1 Intro.wmv</property>
+    <property name="shotcut:detail">C:/Users/serle/Documents/YouCam/Daily Blunt 1 Intro.wmv</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer2" title="Anonymous Submission" in="00:00:00.000" out="00:06:00.667">
+    <property name="length">00:06:00.733</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/serle/Documents/YouCam/Show Overview.wmv</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">003d76041f93cfbc4f4bf93d31577697</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Show Overview.wmv</property>
+    <property name="shotcut:detail">C:/Users/serle/Documents/YouCam/Show Overview.wmv</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer3" title="Anonymous Submission" in="00:00:00.000" out="00:02:21.800">
+    <property name="length">00:02:21.933</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/serle/Documents/YouCam/Show overview pt 2.wmv</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">b2a57b8ad6af5f3ae40510221a8083fe</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Show overview pt 2.wmv</property>
+    <property name="shotcut:detail">C:/Users/serle/Documents/YouCam/Show overview pt 2.wmv</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer4" title="Anonymous Submission" in="00:00:00.000" out="00:03:15.133">
+    <property name="length">00:03:15.200</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/serle/Documents/YouCam/news part one.wmv</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">eca449c5d3c1f416c3603b731ba1e4fc</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">news part one.wmv</property>
+    <property name="shotcut:detail">C:/Users/serle/Documents/YouCam/news part one.wmv</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer5" title="Anonymous Submission" in="00:00:00.000" out="00:03:15.133">
+    <property name="length">00:03:15.200</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/serle/Documents/YouCam/news part one.wmv</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">eca449c5d3c1f416c3603b731ba1e4fc</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">news part one.wmv</property>
+    <property name="shotcut:detail">C:/Users/serle/Documents/YouCam/news part one.wmv</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer6" title="Anonymous Submission" in="00:00:00.000" out="00:26:23.533">
+    <property name="length">00:26:23.600</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/serle/Documents/YouCam/News part two.wmv</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">8bd8051f32457345567cd7ede2574dd9</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">News part two.wmv</property>
+    <property name="shotcut:detail">C:/Users/serle/Documents/YouCam/News part two.wmv</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer7" title="Anonymous Submission" in="00:00:00.000" out="00:26:23.533">
+    <property name="length">00:26:23.600</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/serle/Documents/YouCam/News part two.wmv</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">8bd8051f32457345567cd7ede2574dd9</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">News part two.wmv</property>
+    <property name="shotcut:detail">C:/Users/serle/Documents/YouCam/News part two.wmv</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer8" title="Anonymous Submission" in="00:00:00.000" out="00:26:23.533">
+    <property name="length">00:26:23.600</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/serle/Documents/YouCam/News part two.wmv</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">8bd8051f32457345567cd7ede2574dd9</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">News part two.wmv</property>
+    <property name="shotcut:detail">C:/Users/serle/Documents/YouCam/News part two.wmv</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer9" title="Anonymous Submission" in="00:00:00.000" out="00:26:23.533">
+    <property name="length">00:26:23.600</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/serle/Documents/YouCam/News part two.wmv</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">8bd8051f32457345567cd7ede2574dd9</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">News part two.wmv</property>
+    <property name="shotcut:detail">C:/Users/serle/Documents/YouCam/News part two.wmv</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer10" title="Anonymous Submission" in="00:00:00.000" out="00:18:27.267">
+    <property name="length">00:18:27.333</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/serle/Documents/YouCam/News part 3.wmv</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">f10ea01830b7a6c5144dcf0aee357553</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">News part 3.wmv</property>
+    <property name="shotcut:detail">C:/Users/serle/Documents/YouCam/News part 3.wmv</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer11" title="Anonymous Submission" in="00:00:00.000" out="00:18:27.267">
+    <property name="length">00:18:27.333</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/serle/Documents/YouCam/News part 3.wmv</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">f10ea01830b7a6c5144dcf0aee357553</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">News part 3.wmv</property>
+    <property name="shotcut:detail">C:/Users/serle/Documents/YouCam/News part 3.wmv</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer12" title="Anonymous Submission" in="00:00:00.000" out="00:18:51.667">
+    <property name="length">00:18:51.733</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/serle/Documents/YouCam/Magazine Segment.wmv</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">1b13c8fa52b5f5da704877feaf685b3a</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Magazine Segment.wmv</property>
+    <property name="shotcut:detail">C:/Users/serle/Documents/YouCam/Magazine Segment.wmv</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer0" in="00:00:01.933" out="00:00:18.533"/>
+    <entry producer="producer1" in="00:00:25.067" out="00:00:36.333"/>
+    <entry producer="producer2" in="00:00:03.333" out="00:02:03.400"/>
+    <entry producer="producer3" in="00:02:03.533" out="00:02:18.733"/>
+    <entry producer="producer4" in="00:00:01.800" out="00:01:25.733"/>
+    <entry producer="producer5" in="00:02:21.400" out="00:02:53.333"/>
+    <entry producer="producer6" in="00:01:22.333" out="00:01:40.533"/>
+    <entry producer="producer7" in="00:01:55.933" out="00:07:25.200"/>
+    <entry producer="producer8" in="00:07:29.200" out="00:14:56.733"/>
+    <entry producer="producer9" in="00:15:32.333" out="00:25:34.600"/>
+    <entry producer="producer10" in="00:00:02.600" out="00:06:58.200"/>
+    <entry producer="producer11" in="00:13:58.933" out="00:17:38.733"/>
+    <entry producer="producer12" in="00:00:02.733" out="00:18:51.667"/>
+  </playlist>
+  <producer id="producer13" title="Anonymous Submission" in="00:00:00.000" out="00:04:23.933">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Resources/fabuplus rsz.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="shotcut:hash">f597d1a02830538409e483dac93d7a82</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter0">
+      <property name="background">colour:0</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">0</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.geometry">0.47%/2.50%:62.03%x63.75%</property>
+      <property name="transition.valign">top</property>
+      <property name="transition.halign">left</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer14" title="Anonymous Submission" in="00:00:00.000" out="00:02:32.800">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Resources/confused archie.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="shotcut:hash">3472dfa79892e16097c7f8b470fbbd8b</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter1">
+      <property name="background">colour:0</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">0</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.geometry">0.00%/0.00%:37.81%x67.71%</property>
+      <property name="transition.valign">top</property>
+      <property name="transition.halign">left</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer15" title="Anonymous Submission" in="00:00:00.000" out="00:01:36.333">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Resources/teenboss.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="shotcut:hash">9a2c6fc3ca91daf7de78aba8b59b2f70</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter2">
+      <property name="background">colour:0</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">0</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.geometry">0.00%/0.00%:42.19%x66.67%</property>
+      <property name="transition.valign">top</property>
+      <property name="transition.halign">left</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <playlist id="playlist8">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V2</property>
+    <blank length="00:39:59.400"/>
+    <entry producer="producer13" in="00:00:00.000" out="00:04:23.933"/>
+    <blank length="00:06:28.733"/>
+    <entry producer="producer14" in="00:00:00.000" out="00:02:32.800"/>
+    <blank length="00:00:21.733"/>
+    <entry producer="producer15" in="00:00:00.000" out="00:01:36.333"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 17.12.03" global_feed="1" in="00:00:00.000" out="00:57:21.400">
+    <property name="shotcut">1</property>
+    <property name="shotcut:scaleFactor">1.77425</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist8"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition16">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition17">
+      <property name="a_track">1</property>
+      <property name="b_track">2</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">0</property>
+    </transition>
+  </tractor>
+</mlt>

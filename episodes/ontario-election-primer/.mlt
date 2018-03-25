@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mlt LC_NUMERIC="en_CA" version="6.5.0" title="Shotcut version 17.12.03" producer="main bin">
+  <profile description="automatic" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="1920" display_aspect_den="1080" frame_rate_num="49676250" frame_rate_den="1655969" colorspace="709"/>
+  <playlist id="main bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:14:26.867">
+    <property name="length">00:14:26.900</property>
+    <property name="eof">pause</property>
+    <property name="resource">black</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:14:26.867"/>
+  </playlist>
+  <producer id="producer0" title="Anonymous Submission" in="00:00:00.000" out="00:14:43.133">
+    <property name="length">00:14:43.167</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/serle/Pictures/Camera Roll/WIN_20180314_14_55_48_Pro.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">567c5be64609e75508f940152ae73347</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">WIN_20180314_14_55_48_Pro.mp4</property>
+    <property name="shotcut:detail">C:/Users/serle/Pictures/Camera Roll/WIN_20180314_14_55_48_Pro.mp4</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer1" title="Anonymous Submission" in="00:00:00.000" out="00:14:43.133">
+    <property name="length">00:14:43.167</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/serle/Pictures/Camera Roll/WIN_20180314_14_55_48_Pro.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">567c5be64609e75508f940152ae73347</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">WIN_20180314_14_55_48_Pro.mp4</property>
+    <property name="shotcut:detail">C:/Users/serle/Pictures/Camera Roll/WIN_20180314_14_55_48_Pro.mp4</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer0" in="00:00:03.667" out="00:13:11.500"/>
+    <entry producer="producer1" in="00:13:17.433" out="00:14:36.433"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 17.12.03" global_feed="1" in="00:00:00.000" out="00:14:26.867">
+    <property name="shotcut">1</property>
+    <property name="shotcut:scaleFactor">0.306296</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">1</property>
+    </transition>
+  </tractor>
+</mlt>
