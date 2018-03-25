@@ -392,6 +392,12 @@ p {
 }
 @media only screen and (max-width: 738px){
 
+  .logo p{
+    display: none;
+  }
+  .links a{
+    font-size: 1.5rem;
+  }
   .footer-links a{
     padding: 0.25rem 0.5rem;
   }
@@ -416,9 +422,7 @@ p {
   nav{
     height: 5rem;
   }
-  .logo p{
-    font-size: 1rem;
-  }
+
   .links a{
     font-size: 1.5rem;
     padding: 1.5rem;
@@ -427,7 +431,7 @@ p {
     display: none;
   }
 }
-@media only screen  and (max-width: 722px){
+@media only screen  and (max-width: 720px){
 
   .footer-copy{
     font-size: 0.6rem;
@@ -446,7 +450,7 @@ p {
     display: none;
   }
   .links a{
-    font-size: 0.75rem;
+    font-size: 1rem;
   }
 
 }
