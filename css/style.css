@@ -389,6 +389,9 @@ p {
   .footer-links a{
     padding: 0.5rem 1rem;
   }
+  .logo p{
+    display: none;
+  }
 }
 @media only screen and (max-width: 738px){
 
