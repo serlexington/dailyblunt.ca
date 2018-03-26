@@ -332,7 +332,7 @@ p {
     display: none;
 }
 
-@media only screen and (max-width: 1002px){
+@media  screen and (max-width: 1002px){
 
   .small-container{
     display: none;
@@ -345,7 +345,7 @@ p {
 
 }
 
-@media only screen and (max-width: 889px){
+@media  screen and (max-width: 889px){
 
   .links a{
     font-size: 1rem;
@@ -367,7 +367,7 @@ p {
   }
 }
 
-@media only screen and (max-width: 849px){
+@media  screen and (max-width: 849px){
 
   .logo p{
     font-size: 1.5rem;
@@ -389,7 +389,7 @@ p {
   }
 }
 
-@media only screen and (max-width: 770px){
+@media  screen and (max-width: 770px){
 
   .footer-links a{
     padding: 0.5rem 1rem;
@@ -398,7 +398,7 @@ p {
     display: none;
   }
 }
-@media only screen and (max-width: 738px){
+@media  screen and (max-width: 738px){
 
   .logo p{
     display: none;
@@ -425,7 +425,7 @@ p {
   }
 }
 
-@media only screen and (max-width: 735px){
+@media  screen and (max-width: 735px){
 
   nav{
     height: 5rem;
@@ -439,7 +439,7 @@ p {
     display: none;
   }
 }
-@media only screen  and (max-width: 720px){
+@media  screen  and (max-width: 720px){
 
   .footer-copy{
     font-size: 0.6rem;
@@ -463,7 +463,7 @@ p {
 
 }
 
-@media only screen and (max-width: 584px){
+@media  screen and (max-width: 584px){
 
   .paypal{
     display:  none;
@@ -479,7 +479,7 @@ p {
     height: 4rem;
   }
 }
-@media only screen and (max-width: 393px){
+@media  screen and (max-width: 393px){
   .footer-links a{
     font-size: 0.75rem;
   }
@@ -487,7 +487,7 @@ p {
     font-size: 0.99rem;
   }
 }
-@media only screen and (max-width: 363px){
+@media  screen and (max-width: 363px){
 
   .footer-links a{
     font-size: 0.5rem;
