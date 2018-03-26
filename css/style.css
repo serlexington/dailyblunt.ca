@@ -348,7 +348,8 @@ p {
 @media  screen and (max-width: 889px){
 
   .links a{
-    font-size: 1rem;
+    font-size: 1.5rem;
+    padding: 1.5rem;
   }
 
   .video iframe{
@@ -387,6 +388,10 @@ p {
   .logo p{
     display: none;
   }
+  .links a{
+    font-size: 1.5rem;
+    padding: 1.5rem;
+  }
 }
 
 @media  screen and (max-width: 770px){
@@ -396,6 +401,10 @@ p {
   }
   .logo p{
     display: none;
+  }
+  .links a{
+    font-size: 1.5rem;
+    padding: 1.5rem;
   }
 }
 @media  screen and (max-width: 738px){
@@ -458,7 +467,8 @@ p {
     display: none;
   }
   .links a{
-    font-size: 1rem;
+    font-size: 1.5rem;
+    padding: 1.5rem;
   }
 
 }
@@ -477,6 +487,24 @@ p {
   }
   footer{
     height: 4rem;
+  }
+  .shrink-me{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 461px){
+
+  .text h1{
+    font-size: 1.7rem;
+  }
+  .shrink-me{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 350px){
+  .text h1{
+    font-size: 1.4rem;
   }
 }
 @media  screen and (max-width: 393px){
