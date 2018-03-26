@@ -492,13 +492,22 @@ p {
     width: 100%;
   }
 }
-@media screen and (max-width: 461px){
+@media screen and (max-width: 491px){
+  .links a{
+    padding: 1rem;
+  }
+}
+@media screen and (min-width: 394px) and (max-width: 461px){
 
   .text h1{
     font-size: 1.7rem;
   }
   .shrink-me{
     width: 100%;
+  }
+  .links a{
+    padding: 1rem;
+    font-size: 1rem;
   }
 }
 
@@ -512,7 +521,7 @@ p {
     font-size: 0.75rem;
   }
   .links a{
-    font-size: 0.99rem;
+    font-size: 0.9rem;
   }
 }
 @media  screen and (max-width: 363px){
@@ -522,5 +531,10 @@ p {
   }
   .links a{
     padding: 0.5rem;
+  }
+}
+@media screen and (max-width: 372px){
+  .links a{
+    padding: 1rem;
   }
 }
