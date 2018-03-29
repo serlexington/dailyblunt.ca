@@ -240,20 +240,23 @@ video {
 }
 
 /* Text Section */
-.text{
-  display: flex;
-  flex-direction: column;
+.text {
+    display: flex;
+    flex-direction: column;
+}
 
+.text p {
+    color: #757575;
 }
-.text p{
-  color: #757575;
+
+.text h1 {
+    font-size: 2rem;
 }
-.text h1{
-  font-size: 2rem;
+
+.shrink-me {
+    width: 50%;
 }
-.shrink-me{
-  width: 50%;
-}
+
 /* Font Awesome Icons */
 .font-awesome {
     display: flex;
@@ -264,10 +267,12 @@ video {
     padding: 1rem;
     font-size: 1.5rem;
 }
+
 .fas {
     padding: 1rem;
     font-size: 1.5rem;
 }
+
 .fa-twitter {
     color: #1da1f2;
 }
@@ -287,18 +292,23 @@ video {
 .fa-facebook-f {
     color: #4267b2;
 }
-.fa-bitcoin{
-  color: #f89f33;
+
+.fa-bitcoin {
+    color: #f89f33;
 }
-.fa-ethereum{
-  color: #121212;
+
+.fa-ethereum {
+    color: #121212;
 }
-.fa-comments{
-  color: #06d6a9;
+
+.fa-comments {
+    color: #06d6a9;
 }
-.crypto{
-  padding: 0.5rem;
+
+.crypto {
+    padding: 0.5rem;
 }
+
 /* Footer Section */
 footer {
     display: flex;
@@ -312,7 +322,6 @@ footer a,
 p {
     color: #d1d1d1;
 }
-
 
 .footer-links a {
     padding: 1rem 2rem;
@@ -332,212 +341,227 @@ p {
     display: none;
 }
 
-@media  screen and (max-width: 1002px){
+@media screen and (max-width: 1002px){
+    .small-container {
+        display: none;
+    }
 
-  .small-container{
-    display: none;
-  }
-
-  .flex-container{
-    justify-content: center;
-  }
-
-
+    .flex-container {
+        justify-content: center;
+    }
 }
 
-@media  screen and (max-width: 889px){
+@media screen and (max-width: 889px){
+    .links a {
+        font-size: 1.5rem;
+        padding: 1.5rem;
+    }
 
-  .links a{
-    font-size: 1.5rem;
-    padding: 1.5rem;
-  }
+    .video iframe {
+        margin-left: 0;
+    }
 
-  .video iframe{
-    margin-left: 0;
-  }
+    .video h1 {
+        margin-left: 0;
+    }
 
-  .video h1{
-    margin-left: 0;
-  }
+    .video p {
+        margin-left: 0;
+    }
 
-  .video p{
-    margin-left: 0;
-  }
-  .logo p{
-    display: none;
-  }
+    .logo p {
+        display: none;
+    }
 }
 
-@media  screen and (max-width: 849px){
+@media screen and (max-width: 849px){
+    .logo p {
+        font-size: 1.5rem;
+    }
 
-  .logo p{
-    font-size: 1.5rem;
-  }
+    .video iframe {
+        margin-left: 0;
+    }
 
-  .video iframe{
-    margin-left: 0;
-  }
+    .video h1 {
+        margin-left: 0;
+    }
 
-  .video h1{
-    margin-left: 0;
-  }
+    .video p {
+        margin-left: 0;
+    }
 
-  .video p{
-    margin-left: 0;
-  }
-  .logo p{
-    display: none;
-  }
-  .links a{
-    font-size: 1.5rem;
-    padding: 1.5rem;
-  }
+    .logo p {
+        display: none;
+    }
+
+    .links a {
+        font-size: 1.5rem;
+        padding: 1.5rem;
+    }
 }
 
-@media  screen and (max-width: 770px){
+@media screen and (max-width: 770px){
+    .footer-links a {
+        padding: 0.5rem 1rem;
+    }
 
-  .footer-links a{
-    padding: 0.5rem 1rem;
-  }
-  .logo p{
-    display: none;
-  }
-  .links a{
-    font-size: 1.5rem;
-    padding: 1.5rem;
-  }
-}
-@media  screen and (max-width: 738px){
+    .logo p {
+        display: none;
+    }
 
-  .logo p{
-    display: none;
-  }
-  .links a{
-    font-size: 1.5rem;
-  }
-  .footer-links a{
-    padding: 0.25rem 0.5rem;
-  }
-  .video{
-    width: 75%;
-  }
-  .video iframe{
-    margin-left: 0;
-  }
-
-  .video h1{
-    margin-left: 0;
-  }
-
-  .video p{
-    margin-left: 0;
-  }
+    .links a {
+        font-size: 1.5rem;
+        padding: 1.5rem;
+    }
 }
 
-@media  screen and (max-width: 735px){
+@media screen and (max-width: 738px){
+    .logo p {
+        display: none;
+    }
 
-  nav{
-    height: 5rem;
-  }
+    .links a {
+        font-size: 1.5rem;
+    }
 
-  .links a{
-    font-size: 1.5rem;
-    padding: 1.5rem;
-  }
-  .logo p{
-    display: none;
-  }
-}
-@media  screen  and (max-width: 720px){
+    .footer-links a {
+        padding: 0.25rem 0.5rem;
+    }
 
-  .footer-copy{
-    font-size: 0.6rem;
-    margin: 0;
-  }
-  .footer p{
-    font-size: 0.5rem;
-  }
-  iframe{
-    width: 100%;
-  }
-  footer{
-    height: 6rem;
-  }
-  .logo p{
-    display: none;
-  }
-  .links a{
-    font-size: 1.5rem;
-    padding: 1.5rem;
-  }
+    .video {
+        width: 75%;
+    }
 
+    .video iframe {
+        margin-left: 0;
+    }
+
+    .video h1 {
+        margin-left: 0;
+    }
+
+    .video p {
+        margin-left: 0;
+    }
 }
 
-@media  screen and (max-width: 584px){
+@media screen and (max-width: 735px){
+    nav {
+        height: 5rem;
+    }
 
-  .paypal{
-    display:  none;
-  }
+    .links a {
+        font-size: 1.5rem;
+        padding: 1.5rem;
+    }
 
-  .logo{
-    display: none;
-  }
-  nav{
-    height: 4rem;
-  }
-  footer{
-    height: 4rem;
-  }
-  .shrink-me{
-    width: 100%;
-  }
+    .logo p {
+        display: none;
+    }
 }
-@media screen and (max-width: 491px){
-  .links a{
-    padding: 1rem;
-  }
+
+@media screen  and (max-width: 720px){
+    .footer-copy {
+        font-size: 0.6rem;
+        margin: 0;
+    }
+
+    .footer p {
+        font-size: 0.5rem;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    footer {
+        height: 6rem;
+    }
+
+    .logo p {
+        display: none;
+    }
+
+    .links a {
+        font-size: 1.5rem;
+        padding: 1.5rem;
+    }
 }
+
+@media screen and (max-width: 584px){
+    .paypal {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    nav {
+        height: 4rem;
+    }
+
+    footer {
+        height: 4rem;
+    }
+
+    .shrink-me {
+        width: 100%;
+    }
+}
+
+@media screen and  (max-width: 491px){
+    .links a {
+        padding: 1rem;
+    }
+}
+
 @media screen and (max-width: 461px){
+    .shrink-me {
+        width: 100%;
+    }
 
-  .shrink-me{
-    width: 100%;
-  }
-  .links a{
-    padding: 1rem;
-    font-size: 1rem;
-  }
+    .links a {
+        padding: 1rem;
+        font-size: 1rem;
+    }
 }
-@media screen and (min-width: 351px) and (max-width: 461px){
-  .text h1{
-    font-size: 1.4rem;
-  }
 
+@media screen and (min-width: 351px) and (max-width: 461px){
+    .text h1 {
+        font-size: 1.4rem;
+    }
 }
 
 @media screen and (max-width: 350px){
-  .text h1{
-    font-size: 1.4rem;
-  }
+    .text h1 {
+        font-size: 1.4rem;
+    }
 }
-@media  screen and (max-width: 393px){
-  .footer-links a{
-    font-size: 0.75rem;
-  }
-  .links a{
-    font-size: 0.9rem;
-  }
-}
-@media  screen and (max-width: 363px){
 
-  .footer-links a{
-    font-size: 0.5rem;
-  }
-  .links a{
-    padding: 0.5rem;
-  }
+@media screen and (max-width: 393px){
+    .footer-links a {
+        font-size: 0.75rem;
+    }
+
+    .links a {
+        font-size: 0.9rem;
+    }
 }
+
+@media screen and (max-width: 363px){
+    .footer-links a {
+        font-size: 0.5rem;
+    }
+
+    .links a {
+        padding: 0.5rem;
+    }
+}
+
 @media screen and (max-width: 372px){
-  .links a{
-    padding: 1rem;
-  }
+    .links a {
+        padding: 1rem;
+    }
 }
